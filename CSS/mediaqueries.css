@@ -1,0 +1,146 @@
+/*Diseño para celulares - Extra small*/
+/*@media only screen and (max-width: 600px){
+
+}*/
+
+/*Extra Small - celulares grandes, tabletas*/
+@media only screen and (max-width: 600px){
+	#logo{
+		display: none;
+	}
+
+	nav{
+		height: 40px;
+		text-align: left;
+	}
+
+	#reserva{
+		position: fixed;
+		top:0;
+		left: 80vw;
+		width: 70px;
+		height: 40px;
+		border-color: #f8b400;
+		z-index: 1;
+	}
+
+	#reserva:hover{
+		width: 70px;
+		height: 40px;
+	}
+
+
+	main{
+		margin-top: 40vh;
+	}
+
+	.box{
+		width: 70%;
+	}
+
+	/*recamaras*/
+	#recamara{
+		height: 50vh;
+	}
+
+	.trasnparent{
+		height: 50vh;
+		bottom: 50vh;
+		text-align: left;
+	}
+
+	.res{
+		width: 25%;
+		padding-top: 20px;
+	}
+
+	#submit{
+		margin-left: 40px;
+	}
+
+	#contRecamaras{
+		margin-top: -150px; 
+	}
+
+}
+
+/*Small (Medium) - tabletas landscape*/
+@media only screen and (max-width: 768px){
+	#logo{
+		display: none;
+	}
+
+	nav{
+		height: 40px;
+		text-align: left;
+	}
+
+	#reserva{
+		position: fixed;
+		top:0;
+		left: 80vw;
+		width: 70px;
+		height: 40px;
+		border-color: #f8b400;
+		z-index: 1;
+	}
+
+	#reserva:hover{
+		width: 70px;
+		height: 40px;
+	}
+
+	main{
+		margin-top: 40vh;
+	}
+	
+	.box{
+		width: 70%;
+	}
+
+	/*recamaras*/
+	#recamara{
+		height: 50vh;
+	}
+
+	.trasnparent{
+		height: 50vh;
+		bottom: 50vh;
+		text-align: left;
+	}
+
+	.res{
+		width: 25%;
+		padding-top: 20px;
+	}
+
+	#submit{
+		margin-left: 40px;
+	}
+	
+	#contRecamaras{
+		margin-top: -250px;
+	}	
+}
+
+/*Medium (Large) - laptops o computadoras de escritorio*/
+@media only screen and (max-width: 992px){
+	#recamara{
+		left: 75vh;
+	}
+
+	#submit{
+		margin-left: 40px;
+	}
+
+}
+
+/*Large*/
+@media only screen and (max-width: 1200px){
+
+}
+
+/*Extra large - computadoras grandes o TV*/
+@media only screen and (min-width: 1200px){
+	
+}

@@ -1,0 +1,303 @@
+body{
+	margin:0;
+	background-color: #faf5e4;
+}
+
+header{
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background: white;
+	z-index: 1;
+}
+
+header img{
+	height: 20vh;
+}
+
+nav{
+	background-color: #105e52;
+	color: white;
+	height: 25px;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	width: 20%;
+	padding: 5px 0;
+	font-family: monospace;
+}
+
+nav a:hover{
+	color: #f8b400;
+	background: crimson;
+	border-radius: 20px;
+}
+
+main{
+	/*height: 2200px;*/
+	margin-top: 25vh;
+}
+
+#portada{
+	width: 100%;
+	opacity: 0.7;
+	z-index: 2;
+}
+
+.contenido{
+	margin: 10px 20%;
+	text-align: center;
+}
+
+.contenido h1, .ofertas h1{
+	color: #105e52;
+	font-weight: lighter;
+	margin: 0;
+}
+
+.contenido h2{
+	color: #f8b400;
+	margin: 0;
+	font-weight: lighter;
+}
+
+.contenido p{
+	font-family: monospace;
+	line-height: 25px;
+}
+
+summary{
+	color: #105e52;
+}
+
+.ofertas{
+	text-align: center;
+	background-color: #f5dea3;
+	margin-top: 25px;
+}
+
+.box{
+	display: inline-block;
+	width: 30%;
+	margin: 10px 15px;
+	background-color: white;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.box img{
+	width: 100%;
+}
+
+.box:hover{
+	background-color: #105e52;
+	color: white;
+}
+
+.box:hover .texto button{
+	background-color: #f8b400;
+}
+
+#vip{
+	height: 247px;
+}
+
+#pareja{
+	height: 247px;
+}
+
+.texto h3{
+	color: #f8b400;
+	font-family: 'Verdana', sans-serif;
+}
+
+.texto p{
+	font-family: monospace;
+}
+
+.texto button{
+	background-color: #2c786c;
+	padding: 5px 8px;
+	color: white;
+}
+
+footer{
+	text-align: center;
+}
+
+#reserva{
+	background-color: #f8b400;
+	position: fixed;
+	top:0;
+	left: 85vw;
+	width: 150px;
+	height: 40px;
+	border-color: #f8b400;
+	z-index: 1;
+}
+
+#reserva:hover{
+	font-weight: bolder;
+	background: white;
+	border-radius: 20px;
+}
+
+.redes{
+	background: #105e52;
+	height: 50px;
+	padding-top: 15px;
+}
+
+.redes a{
+	margin: 0 2%;
+}
+
+.terms{
+	font-family: monospace;
+}
+
+.terms h4{
+	margin-bottom: 0;
+}
+
+.terms h5{
+	margin-top:0;
+}
+
+
+/*Pagina de recamaras y suites*/
+
+#recamara{
+	width: 100%;
+}
+
+.trasnparent{
+	width: 100%;
+	height: 35vh;
+	background-color: rgba(0,0,0,0.3);
+	position: relative;
+	bottom: 35vh;
+	text-align: center;
+}
+
+.res{
+	display: inline-block;
+	width: 16%;
+	padding-top: 25px;
+}
+
+.res label{
+	display: block;
+	color: #f8b400;
+	font-family: 'Arial', sans-serif;
+
+}
+
+.trasnparent form{
+	padding-top: 20px;
+}
+
+.trasnparent form input{
+	background-color: transparent;
+	border-style: none;
+	border-bottom-style: solid;
+	border-color: white;
+	padding-top: 10px;
+	color: white;
+}
+
+#submit{
+	background-color: #f8b400;
+	border-style: none;
+	color: black;
+	width: 150px;
+	height: 40px;
+	border-radius: 9px;
+}
+
+#submit:hover{
+	border-style: outset;
+	background-color: #105e52;
+	color: white;
+
+}
+
+#contRecamaras{
+	margin-top: -200px;
+}
+
+.recamaras{
+	padding-top: 20px;
+	background-color: #f5dea3;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.rec img{
+	width: 90%;
+}
+
+.rec h1{
+	color: #105e52;
+	font-weight: lighter;
+}
+
+.lista{
+	display: inline-block;
+	width: 40%;
+	text-align: left;
+	font-family: monospace;
+}
+
+.rec{
+	border-top-style: solid;
+	border-color: silver;
+}
+
+#tarifas{
+	border-style: outset;
+	border-color: lightgray;
+	border-collapse: collapse;
+	margin-top: 20px;
+	font-family: monospace;
+	font-size: larger;
+	margin-left: 170px;
+}
+
+#tarifas th, #tarifas td{
+	border-style: solid;
+	border-color: lightgray;
+	padding: 10px 10px;
+	width: 40%;
+}
+
+#tarifas tr:hover{
+	background-color: #f5dea3;
+	cursor: pointer;
+}
+
+/*table{
+	margin-left: 170px;
+}*/
+
+/*Contacto*/
+#contacto input, textarea{
+	margin: 10px;
+	padding: 5px 3px;
+	font-family: monospace;
+	border-color: lightblue;
+}
+
+#con{
+	background-color: white;
+}
+
+/*Restaaurantes*/
+#img{
+	width: 100%;
+}
+
